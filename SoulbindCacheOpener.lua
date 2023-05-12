@@ -441,6 +441,7 @@ SoulbindCacheOpener.items = {
 {["name"] = "SoulbindCacheOpener_well-danced-drum",["id"] = 201018,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_ancient-dragonweave-bolt",["id"] = 201019,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_silky-surprise",["id"] = 201020,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_eroded-titan-gizmo",["id"] = 193902,["button"] = nil},	
 
 -- Consortium Quartermaster
 {["name"] = "SoulbindCacheOpener_rare-blacksmiths-diagrams",["id"] = 201268,["button"] = nil},
