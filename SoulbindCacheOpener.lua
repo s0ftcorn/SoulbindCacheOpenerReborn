@@ -826,7 +826,86 @@ SoulbindCacheOpener.items = {
 {["name"] = "SoulbindCacheOpener_technique-windborne-velocidrake-silver-and-blue-armor",["id"] = 201743,["button"] = nil}
 
 
+--
 
+-- 10.1 Patch
+
+--
+
+ 
+
+{["name"] = "SoulbindCacheOpener_Shadowflame_Residue_Sack",["id"] = 205423,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Large_Shadowflame_Residue_Sack",["id"] = 205682,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Small_Loammian_Supply_Pack",["id"] = 205964,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Clinking_Dirt-Covered_Pouch",["id"] = 205247,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Cavern_Racer's_Purse",["id"] = 205226,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Heroic_Dungeon_Delver's_Trophy_Chest",["id"] = 206135,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Clanging_Dirt-Covered_Pouch",["id"] = 205248,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-Antler-Horns",["id"] = 203338,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-Swept-Horns",["id"] = 203330,["button"] = nil},
+
+-- Spinsoa Vendor
+
+{["name"] = "SoulbindCacheOpener_Drake's_Bountiful_Chest",["id"] = 204726,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Drake's_Hefty_Chest",["id"] = 204725,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Drake's_Small_Chest",["id"] = 204724,["button"] = nil},
+
+-- Researcher's Event
+
+{["name"] = "SoulbindCacheOpener_Researcher's_Gift",["id"] = 205370,["button"] = nil},
+
+-- Tailoring
+
+{["name"] = "SoulbindCacheOpener_Exquisitely_Embroidered_Banner",["id"] = 206030,["button"] = nil},
+
+-- Sniffenseeking Rewards
+
+{["name"] = "SoulbindCacheOpener_Scentsational_Niffen_Treasures",["id"] = 205983,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Hidden_Niffen_Treasure",["id"] = 205346,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Gathered_Niffen_Resources",["id"] = 205347,["button"] = nil},
+
+-- Reputation
+
+{["name"] = "SoulbindCacheOpener_Pungent_Niffen_Incense",["id"] = 205249,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Honorary_Explorer's_Compass",["id"] = 205254,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Farmhand's_Abundant_Harves",["id"] = 205253,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Champion's_Rock_Bar",["id"] = 205251,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Regurgitated_Half-Digested_Fish",["id"] = 205992,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Sign_of_Respect",["id"] = 205998,["button"] = nil},
+
+{["name"] = "SoulbindCacheOpener_Symbol_of_Friendship",["id"] = 205989,["button"] = nil}
+
+-- Unsorted stuff
+ {["name"] = "SoulbindCacheOpener_phoenix-feather-quill",["id"] = 193904,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_exceedingly-soft-skin",["id"] = 198976,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_preserved-animal-parts",["id"] = 193913,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_ossified-hide",["id"] = 198975,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_infinitely-attachable-pair-o-docks",["id"] = 198970,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_elegantly-engraved-embellishment",["id"] = 198974,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_molted-dragon-scales",["id"] = 193910,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_elementious-splinter",["id"] = 198964,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_decaying-phlegm",["id"] = 198963,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_supply-laden-soup-pot",["id"] = 200095,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_glowing-primalist-cache",["id"] = 202371,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_tutaqans-commendation",["id"] = 201783,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_merithras-blessing",["id"] = 201779,["button"] = nil},
 };
 
 function SoulbindCacheOpener:updateButtons()
