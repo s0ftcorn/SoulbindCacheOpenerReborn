@@ -1,7 +1,7 @@
 ## Interface: 100002
 ## Title: Soulbind Cache Opener
 ## Version: 6.5
-## Author: Nerino1, s0ftcorn	
+## Author: Nerino1, s0ftcorn, various comments on curseforge
 ## Notes: Adds a movable button to easily open Soulbind Rewards, Callings Rewards and Table Mission Caches and more!
 ## SavedVariablesPerCharacter: SoulbindCacheOpenerDB
 SoulbindCacheOpener.lua

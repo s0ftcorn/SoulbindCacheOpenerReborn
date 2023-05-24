@@ -1,6 +1,6 @@
--- Author: Nerino1
+-- Author: Nerino1, s0ftcorn, various comments on curseforge
 -- Create Date : 1/8/2021
--- Version 6.4.9
+-- Version 6.5
 
 
 local debug = false;

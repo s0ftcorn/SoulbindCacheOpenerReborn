@@ -1,6 +1,6 @@
--- Author: Nerino1
+-- Author: Nerino1, s0ftcorn
 -- Create Date : 1/8/2021
--- Version 6.4.9
+-- Version 6.5
 
 
 local debug = false;
@@ -891,6 +891,21 @@ SoulbindCacheOpener.items = {
 {["name"] = "SoulbindCacheOpener_Sign_of_Respect",["id"] = 205998,["button"] = nil},
 
 {["name"] = "SoulbindCacheOpener_Symbol_of_Friendship",["id"] = 205989,["button"] = nil}
+
+-- Unsorted stuff
+ {["name"] = "SoulbindCacheOpener_phoenix-feather-quill",["id"] = 193904,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_exceedingly-soft-skin",["id"] = 198976,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_preserved-animal-parts",["id"] = 193913,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_ossified-hide",["id"] = 198975,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_infinitely-attachable-pair-o-docks",["id"] = 198970,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_elegantly-engraved-embellishment",["id"] = 198974,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_molted-dragon-scales",["id"] = 193910,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_elementious-splinter",["id"] = 198964,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_decaying-phlegm",["id"] = 198963,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_supply-laden-soup-pot",["id"] = 200095,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_glowing-primalist-cache",["id"] = 202371,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_tutaqans-commendation",["id"] = 201783,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_merithras-blessing",["id"] = 201779,["button"] = nil},
 };
 
 function SoulbindCacheOpener:updateButtons()
