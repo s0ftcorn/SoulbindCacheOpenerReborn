@@ -1,0 +1,6 @@
+package-as: SoulbindCacheOpener
+ignore:
+  - release.sh
+  - changelog.txt
+  - .gitignore
+  - .github
