@@ -372,6 +372,7 @@ SoulbindCacheOpener.items = {
 
 -- Engineering Knowledge
 {["name"] = "SoulbindCacheOpener_Dusty-Engineer's-Scribblings",["id"] = 200977,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Eroded-Titan-Gizmo",["id"] = 193902,["button"] = nil},
 
 -- Inscription Knowledge
 {["name"] = "SoulbindCacheOpener_Dusty-Scribe's-Runic-Drawings",["id"] = 200973,["button"] = nil},
@@ -907,6 +908,7 @@ SoulbindCacheOpener.items = {
 {["name"] = "SoulbindCacheOpener_tutaqans-commendation",["id"] = 201783,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_merithras-blessing",["id"] = 201779,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_cache-of-aberrus-treasures",["id"] = 205966,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Ohuna-Companion-Color-Red",["id"] = 194087,["button"] = nil},
 };
 
 function SoulbindCacheOpener:updateButtons()
