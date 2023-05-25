@@ -824,7 +824,7 @@ SoulbindCacheOpener.items = {
 {["name"] = "SoulbindCacheOpener_technique-windborne-velocidrake-spined-head",["id"] = 198903,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_technique-windborne-velocidrake-windswept-pattern",["id"] = 198904,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_technique-windborne-velocidrake-steel-and-yellow-armor",["id"] = 201739,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_technique-windborne-velocidrake-silver-and-blue-armor",["id"] = 201743,["button"] = nil}
+{["name"] = "SoulbindCacheOpener_technique-windborne-velocidrake-silver-and-blue-armor",["id"] = 201743,["button"] = nil},
 
 
 --
@@ -891,7 +891,7 @@ SoulbindCacheOpener.items = {
 
 {["name"] = "SoulbindCacheOpener_Sign_of_Respect",["id"] = 205998,["button"] = nil},
 
-{["name"] = "SoulbindCacheOpener_Symbol_of_Friendship",["id"] = 205989,["button"] = nil}
+{["name"] = "SoulbindCacheOpener_Symbol_of_Friendship",["id"] = 205989,["button"] = nil},
 
 -- Unsorted stuff
  {["name"] = "SoulbindCacheOpener_phoenix-feather-quill",["id"] = 193904,["button"] = nil},
