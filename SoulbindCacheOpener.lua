@@ -1,6 +1,6 @@
 -- Author: Nerino1, s0ftcorn, various comments on curseforge
 -- Create Date : 1/8/2021
--- Version 6.5.2
+-- Version 6.5.3
 
 
 local debug = false;
@@ -346,6 +346,7 @@ SoulbindCacheOpener.items = {
 {["name"] = "SoulbindCacheOpener_Iridescent-Ore",["id"] = 201301,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_Mining-Field-Notes",["id"] = 199122,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_Dusty-Miner's-Notes",["id"] = 200981,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Niffen-mining-knowledge",["id"] = 205356,["button"] = nil},
 
 -- Herbalism Knowledge
 {["name"] = "SoulbindCacheOpener_Infused-Pollen",["id"] = 202014,["button"] = nil},
@@ -363,19 +364,24 @@ SoulbindCacheOpener.items = {
 
 -- Alchemy Knowledge
 {["name"] = "SoulbindCacheOpener_Dusty-Alchemist's-Research",["id"] = 200974,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Niffen-alchemy-knowledge",["id"] = 205353,["button"] = nil},
 
 -- Blacksmithing Knowledge
 {["name"] = "SoulbindCacheOpener_Dusty-Blacksmith's-Diagrams",["id"] = 200972,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Niffen-blacksmithing-knowledge",["id"] = 205352,["button"] = nil},
 
 -- Enchanting Knowledge
 {["name"] = "SoulbindCacheOpener_Dusty-Enchanter's-Research",["id"] = 200976,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Niffen-enchanting-knowledge",["id"] = 205351,["button"] = nil},
 
 -- Engineering Knowledge
 {["name"] = "SoulbindCacheOpener_Dusty-Engineer's-Scribblings",["id"] = 200977,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_Eroded-Titan-Gizmo",["id"] = 193902,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Niffen-engineering-knowledge",["id"] = 205349,["button"] = nil},
 
 -- Inscription Knowledge
 {["name"] = "SoulbindCacheOpener_Dusty-Scribe's-Runic-Drawings",["id"] = 200973,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Niffen-inscription-knowledge",["id"] = 205354,["button"] = nil},
 
 -- Jewelcrafting Knowledge
 {["name"] = "SoulbindCacheOpener_Dusty-Jeweler's-Illustrations",["id"] = 200978,["button"] = nil},
@@ -385,6 +391,7 @@ SoulbindCacheOpener.items = {
 
 -- Tailoring Knowledge
 {["name"] = "SoulbindCacheOpener_Dusty-Tailor's-Diagrams",["id"] = 200975,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Niffen-tailoring-knowledge",["id"] = 205355,["button"] = nil},
 
 -- Knowledge Treasures
 {["name"] = "SoulbindCacheOpener_experimental-decay-sample",["id"] = 198599,["button"] = nil},
