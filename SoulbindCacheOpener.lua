@@ -916,6 +916,8 @@ SoulbindCacheOpener.items = {
 {["name"] = "SoulbindCacheOpener_merithras-blessing",["id"] = 201779,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_cache-of-aberrus-treasures",["id"] = 205966,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_Ohuna-Companion-Color-Red",["id"] = 194087,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Appreciative-researcher-gift",["id"] = 205369,["button"] = nil},
+
 };
 
 function SoulbindCacheOpener:updateButtons()
