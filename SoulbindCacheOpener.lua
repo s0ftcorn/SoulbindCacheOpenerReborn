@@ -1,6 +1,6 @@
 -- Author: Nerino1, s0ftcorn, various comments on curseforge
 -- Create Date : 1/8/2021
--- Version 6.5.3
+-- Version 6.5.4
 
 
 local debug = false;
@@ -843,29 +843,19 @@ SoulbindCacheOpener.items = {
  
 
 {["name"] = "SoulbindCacheOpener_Shadowflame_Residue_Sack",["id"] = 205423,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Large_Shadowflame_Residue_Sack",["id"] = 205682,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Small_Loammian_Supply_Pack",["id"] = 205964,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Clinking_Dirt-Covered_Pouch",["id"] = 205247,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Cavern_Racer's_Purse",["id"] = 205226,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Heroic_Dungeon_Delver's_Trophy_Chest",["id"] = 206135,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Clanging_Dirt-Covered_Pouch",["id"] = 205248,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-Antler-Horns",["id"] = 203338,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-Swept-Horns",["id"] = 203330,["button"] = nil},
 
 -- Spinsoa Vendor
 
 {["name"] = "SoulbindCacheOpener_Drake's_Bountiful_Chest",["id"] = 204726,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Drake's_Hefty_Chest",["id"] = 204725,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Drake's_Small_Chest",["id"] = 204724,["button"] = nil},
 
 -- Researcher's Event
@@ -879,26 +869,27 @@ SoulbindCacheOpener.items = {
 -- Sniffenseeking Rewards
 
 {["name"] = "SoulbindCacheOpener_Scentsational_Niffen_Treasures",["id"] = 205983,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Hidden_Niffen_Treasure",["id"] = 205346,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Gathered_Niffen_Resources",["id"] = 205347,["button"] = nil},
 
 -- Reputation
 
 {["name"] = "SoulbindCacheOpener_Pungent_Niffen_Incense",["id"] = 205249,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Honorary_Explorer's_Compass",["id"] = 205254,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Farmhand's_Abundant_Harves",["id"] = 205253,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Champion's_Rock_Bar",["id"] = 205251,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Regurgitated_Half-Digested_Fish",["id"] = 205992,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Sign_of_Respect",["id"] = 205998,["button"] = nil},
-
 {["name"] = "SoulbindCacheOpener_Symbol_of_Friendship",["id"] = 205989,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Gift-of-the-high-redolence",["id"] = 205250,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_momento-of-rekindled-bonds",["id"] = 205252,["button"] = nil},
+
+-- Fragments and Spark
+{["name"] = "SoulbindCacheOpener_splintered-spark-of-shadowflame",["id"] = 204717,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_whelpling-shadowflame-crest-fragment",["id"] = 204075,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_drakes-shadowflame-crest-fragment",["id"] = 204076,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_wryms-shadowflame-crest-fragment",["id"] = 204077,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_aspects-shadowflame-crest-fragment",["id"] = 204078,["button"] = nil},
 
 -- Unsorted stuff
  {["name"] = "SoulbindCacheOpener_phoenix-feather-quill",["id"] = 193904,["button"] = nil},
@@ -915,8 +906,26 @@ SoulbindCacheOpener.items = {
 {["name"] = "SoulbindCacheOpener_tutaqans-commendation",["id"] = 201783,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_merithras-blessing",["id"] = 201779,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_cache-of-aberrus-treasures",["id"] = 205966,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_Ohuna-Companion-Color-Red",["id"] = 194087,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_Appreciative-researcher-gift",["id"] = 205369,["button"] = nil},
+
+-- Paragon Caches
+
+{["name"] = "SoulbindCacheOpener_overflowing-dragonscale-expedition-supply-pack",["id"] = 199472,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_overflowing-iskaaran-supply-pack",["id"] = 199473,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_overflowing-maruuk-centaur-supply-satchel",["id"] = 199474,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_overflowing-valdrakken-accord-supply-pack",["id"] = 199475,["button"] = nil},
+
+-- Ohuna/Bakar
+
+{["name"] = "SoulbindCacheOpener_ohuna-companion-color-brown",["id"] = 193205,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_ohuna-companion-color-dark",["id"] = 194088,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_ohuna-companion-color-red",["id"] = 194087,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_ohuna-companion-color-sepia",["id"] = 194095,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_bakar-companion-color-black",["id"] = 194094,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_bakar-companion-color-brown",["id"] = 194093,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_bakar-companion-color-golden-brown",["id"] = 194091,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_bakar-companion-color-orange",["id"] = 194089,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_bakar-companion-color-white",["id"] = 194090,["button"] = nil},
 
 };
 
@@ -938,7 +947,9 @@ function SoulbindCacheOpener:updateButton(btn,id,num,freeSpace)
 	local count = GetItemCount(id);
 	-- List of items that should only be shown if there are 10 or more
 	local ids = { [12345] = true, [190315] = true, [190320] = true, [190322] = true, [190326] = true, [190328] = true, [190330] = true, [190451] = true };
-	if (not ids[id] and count > 0) or (SoulbindCacheOpenerDB.rousing and ids[id] and count >= 10) then
+	local crests = { [204075] = true, [204076] = true, [204077] = true, [204078] = true };
+	local sparks = { [204717] = true };
+	if (not ids[id] and not crests[id] and not sparks[id] and count > 0) or (crests[id] and count >= 15) or (sparks[id] and count >= 2) or (SoulbindCacheOpenerDB.rousing and ids[id] and count >= 10)  then
 		btn:ClearAllPoints();
 		if SoulbindCacheOpenerDB.alignment == "LEFT" then
 			if self.previous == 0 then
