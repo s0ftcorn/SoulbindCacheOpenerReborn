@@ -1,3 +1,5 @@
+6.5.5 - Updated items to have settable threshold for appearing when they reach a certain stack size.
+
 6.5.4 - 10.1 Upgrade items
 
 6.5.3 - 10.1 Stuff

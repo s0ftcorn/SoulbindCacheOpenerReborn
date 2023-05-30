@@ -728,13 +728,13 @@ SoulbindCacheOpener.items = {
 {["name"] = "SoulbindCacheOpener_valdrakken-treasures",["id"] = 200073,["button"] = nil},
 
 -- Rousing (Stack of 10) - Listed also in the updateButton function as items that need to be in a stack of 10
-{["name"] = "SoulbindCacheOpener_rousing-earth",["id"] = 190315,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_rousing-fire",["id"] = 190320,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_rousing-order",["id"] = 190322,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_rousing-air",["id"] = 190326,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_rousing-frost",["id"] = 190328,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_rousing-decay",["id"] = 190330,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_rousing-ire",["id"] = 190451,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_rousing-earth",["id"] = 190315,["threshold"] = 10,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_rousing-fire",["id"] = 190320,["threshold"] = 10,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_rousing-order",["id"] = 190322,["threshold"] = 10,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_rousing-air",["id"] = 190326,["threshold"] = 10,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_rousing-frost",["id"] = 190328,["threshold"] = 10,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_rousing-decay",["id"] = 190330,["threshold"] = 10,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_rousing-ire",["id"] = 190451,["threshold"] = 10,["button"] = nil},
 -- 
 
 -- Winter Veil
@@ -885,11 +885,11 @@ SoulbindCacheOpener.items = {
 {["name"] = "SoulbindCacheOpener_momento-of-rekindled-bonds",["id"] = 205252,["button"] = nil},
 
 -- Fragments and Spark
-{["name"] = "SoulbindCacheOpener_splintered-spark-of-shadowflame",["id"] = 204717,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_whelpling-shadowflame-crest-fragment",["id"] = 204075,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_drakes-shadowflame-crest-fragment",["id"] = 204076,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_wryms-shadowflame-crest-fragment",["id"] = 204077,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_aspects-shadowflame-crest-fragment",["id"] = 204078,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_splintered-spark-of-shadowflame",["id"] = 204717,["threshold"] = 2,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_whelpling-shadowflame-crest-fragment",["id"] = 204075,["threshold"] = 15,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_drakes-shadowflame-crest-fragment",["id"] = 204076,["threshold"] = 15,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_wryms-shadowflame-crest-fragment",["id"] = 204077,["threshold"] = 15,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_aspects-shadowflame-crest-fragment",["id"] = 204078,["threshold"] = 15,["button"] = nil},
 
 -- Unsorted stuff
  {["name"] = "SoulbindCacheOpener_phoenix-feather-quill",["id"] = 193904,["button"] = nil},
@@ -941,17 +941,16 @@ function SoulbindCacheOpener:updateButtons()
 	end
 	for i = 1, #self.items do
 		if debug == true then if DLAPI then DLAPI.DebugLog("Testing", "5 - self.items loop") end end
-		self:updateButton(self.items[i].button,self.items[i].id,i,freeSpace);
+		self:updateButton(self.items[i].button,self.items[i].id,self.items[i].threshold or 1,i,freeSpace);
 	end
 end
 
-function SoulbindCacheOpener:updateButton(btn,id,num,freeSpace)
+function SoulbindCacheOpener:updateButton(btn,id,threshold,num,freeSpace)
 	local count = GetItemCount(id);
-	-- List of items that should only be shown if there are 10 or more
-	local ids = { [12345] = true, [190315] = true, [190320] = true, [190322] = true, [190326] = true, [190328] = true, [190330] = true, [190451] = true };
-	local crests = { [204075] = true, [204076] = true, [204077] = true, [204078] = true };
-	local sparks = { [204717] = true };
-	if (not ids[id] and not crests[id] and not sparks[id] and count > 0) or (crests[id] and count >= 15) or (sparks[id] and count >= 2) or (SoulbindCacheOpenerDB.rousing and ids[id] and count >= 10)  then
+	local meetThreshold = count >= threshold;
+	local rousings = { [12345] = true, [190315] = true, [190320] = true, [190322] = true, [190326] = true, [190328] = true, [190330] = true, [190451] = true };
+
+	if (SoulbindCacheOpenerDB.rousing and meetThreshold) or (not rousings[id] and meetThreshold) then
 		btn:ClearAllPoints();
 		if SoulbindCacheOpenerDB.alignment == "LEFT" then
 			if self.previous == 0 then
