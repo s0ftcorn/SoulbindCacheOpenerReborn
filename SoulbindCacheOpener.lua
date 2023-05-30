@@ -1,6 +1,6 @@
 -- Author: Nerino1, s0ftcorn, various comments on curseforge
 -- Create Date : 1/8/2021
--- Version 6.5.4
+-- Version 6.5.5
 
 
 local debug = false;
@@ -907,6 +907,8 @@ SoulbindCacheOpener.items = {
 {["name"] = "SoulbindCacheOpener_merithras-blessing",["id"] = 201779,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_cache-of-aberrus-treasures",["id"] = 205966,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_Appreciative-researcher-gift",["id"] = 205369,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_marrow-ripened-slime",["id"] = 205212,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_thankful-researchers-gift",["id"] = 205368,["button"] = nil},
 
 -- Paragon Caches
 
