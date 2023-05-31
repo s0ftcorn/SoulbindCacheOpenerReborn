@@ -1,6 +1,6 @@
 -- Author: Nerino1, s0ftcorn, various comments on curseforge
 -- Create Date : 1/8/2021
--- Version 6.5.5
+-- Version 6.5.6
 
 
 local debug = false;
@@ -833,6 +833,24 @@ SoulbindCacheOpener.items = {
 {["name"] = "SoulbindCacheOpener_technique-windborne-velocidrake-steel-and-yellow-armor",["id"] = 201739,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_technique-windborne-velocidrake-silver-and-blue-armor",["id"] = 201743,["button"] = nil},
 
+-- Paragon Caches
+
+{["name"] = "SoulbindCacheOpener_overflowing-dragonscale-expedition-supply-pack",["id"] = 199472,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_overflowing-iskaaran-supply-pack",["id"] = 199473,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_overflowing-maruuk-centaur-supply-satchel",["id"] = 199474,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_overflowing-valdrakken-accord-supply-pack",["id"] = 199475,["button"] = nil},
+
+-- Ohuna/Bakar
+
+{["name"] = "SoulbindCacheOpener_ohuna-companion-color-brown",["id"] = 193205,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_ohuna-companion-color-dark",["id"] = 194088,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_ohuna-companion-color-red",["id"] = 194087,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_ohuna-companion-color-sepia",["id"] = 194095,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_bakar-companion-color-black",["id"] = 194094,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_bakar-companion-color-brown",["id"] = 194093,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_bakar-companion-color-golden-brown",["id"] = 194091,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_bakar-companion-color-orange",["id"] = 194089,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_bakar-companion-color-white",["id"] = 194090,["button"] = nil},
 
 --
 
@@ -840,7 +858,6 @@ SoulbindCacheOpener.items = {
 
 --
 
- 
 
 {["name"] = "SoulbindCacheOpener_Shadowflame_Residue_Sack",["id"] = 205423,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_Large_Shadowflame_Residue_Sack",["id"] = 205682,["button"] = nil},
@@ -851,6 +868,29 @@ SoulbindCacheOpener.items = {
 {["name"] = "SoulbindCacheOpener_Clanging_Dirt-Covered_Pouch",["id"] = 205248,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-Antler-Horns",["id"] = 203338,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-Swept-Horns",["id"] = 203330,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-brown-hair",["id"] = 203323,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-white-hair",["id"] = 203324,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-red-hair",["id"] = 203325,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-helm",["id"] = 203326,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-tan-horns",["id"] = 203327,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-white-horns",["id"] = 203328,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-heavy-horns",["id"] = 203329,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-long-jaw-horns",["id"] = 203341,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-tripe-jaw-horns",["id"] = 203342,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-hairy-jaw",["id"] = 203343,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-single-jaw-horn",["id"] = 203344,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-split-jaw-horns",["id"] = 203345,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-curled-nose",["id"] = 203346,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-large-spiked-nose",["id"] = 203347,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-pointed-nose",["id"] = 203348,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-curved-nose-horn",["id"] = 203349,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-blue-scales",["id"] = 203350,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-bronze-scales",["id"] = 203351,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-green-scales",["id"] = 203352,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-red-scales",["id"] = 203353,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-white-scales",["id"] = 203354,["button"] = nil},
+{["name"] = "SoulbindCacheOpener_Winding-Slitherdrake:-yellow-scales",["id"] = 203355,["button"] = nil},
+
 
 -- Spinsoa Vendor
 
@@ -909,25 +949,6 @@ SoulbindCacheOpener.items = {
 {["name"] = "SoulbindCacheOpener_Appreciative-researcher-gift",["id"] = 205369,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_marrow-ripened-slime",["id"] = 205212,["button"] = nil},
 {["name"] = "SoulbindCacheOpener_thankful-researchers-gift",["id"] = 205368,["button"] = nil},
-
--- Paragon Caches
-
-{["name"] = "SoulbindCacheOpener_overflowing-dragonscale-expedition-supply-pack",["id"] = 199472,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_overflowing-iskaaran-supply-pack",["id"] = 199473,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_overflowing-maruuk-centaur-supply-satchel",["id"] = 199474,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_overflowing-valdrakken-accord-supply-pack",["id"] = 199475,["button"] = nil},
-
--- Ohuna/Bakar
-
-{["name"] = "SoulbindCacheOpener_ohuna-companion-color-brown",["id"] = 193205,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_ohuna-companion-color-dark",["id"] = 194088,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_ohuna-companion-color-red",["id"] = 194087,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_ohuna-companion-color-sepia",["id"] = 194095,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_bakar-companion-color-black",["id"] = 194094,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_bakar-companion-color-brown",["id"] = 194093,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_bakar-companion-color-golden-brown",["id"] = 194091,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_bakar-companion-color-orange",["id"] = 194089,["button"] = nil},
-{["name"] = "SoulbindCacheOpener_bakar-companion-color-white",["id"] = 194090,["button"] = nil},
 
 };
 
